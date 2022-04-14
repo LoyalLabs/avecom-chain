@@ -43,7 +43,7 @@ curl https://get.starport.com/LoyalLabs/avecom-chain@latest! | sudo bash
 ```
 `LoyalLabs/avecom-chain` should match the `username` and `repo_name` of the Github repository to which the source code was pushed. Learn more about [the install process](https://github.com/allinbits/starport-installer).
 
-## Learn more
+## Learn more...
 
 - [Starport](https://starport.com)
 - [Tutorials](https://docs.starport.com/guide)
