@@ -1,0 +1,14 @@
+syntax = "proto3";
+package LoyalLabs.avecomchain.avecomchain;
+
+import "gogoproto/gogo.proto";
+import "avecomchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/LoyalLabs/avecom-chain/x/avecomchain/types";
+
+// GenesisState defines the avecomchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
